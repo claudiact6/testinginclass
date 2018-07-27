@@ -1,11 +1,46 @@
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Georgia';
+    margin: 0;
 }
 
 body {
     font-family: 'Zent';
+    background-image: url("topography.png");
+    margin:0; 
 }
+
+.menu {
+    background-color: skyblue;
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.mainbody {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    float: center;
+}
+
+.infopart {
+    clear:both;
+}
+
 
 ul {
     list-style:none;
+}
+
+img {
+    margin: 10px 0px;
+    
+}
+
+img:hover {
+    filter: grayscale(100%);
 }
