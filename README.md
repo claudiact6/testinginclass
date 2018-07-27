@@ -1,0 +1,2 @@
+# testinginclass
+Just a test
